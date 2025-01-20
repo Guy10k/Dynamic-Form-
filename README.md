@@ -1,4 +1,4 @@
-# Report Configuration Application
+# Form Configuration Application
 
 ## Overview
 This is a web application for configuring form parameters dynamically based on a backend form_definition end point and a mongo DB data base. The app is built using **React**, **Material-UI**, **Python (Flask)**, and **MongoDB**.
