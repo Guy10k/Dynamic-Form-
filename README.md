@@ -22,29 +22,30 @@ This is a web application for configuring form parameters dynamically based on a
 
 
 # Backend Setup:
-1. Navigate to the backend folder:
+## 1. Navigate to the backend folder:
    ```bash
-
-        cd backend
-2. Create a Python virtual environment:
-        on mac\linux:
-          ```bash
+      cd backend
+   ```
+## 2. Create a Python virtual environment:
+ ### On mac\linux:
+   ```bash
             python3 -m venv venv
             source venv/bin/activate
-        on windows:
-         ```bash
-
-            python -m venv venv
-            venv\Scripts\activate
-3. Install dependencies using pip:
-     ```bash
-
+   ```
+      
+### on windows:
+   ```bash
+         python -m venv venv
+         venv\Scripts\activate
+   ```
+## 4. Install dependencies using pip:
+```bash
         pip install -r requirements.txt
-    
-4. Run the server file:
-     ```bash
+```
+##  5. Run the server file:
+   ```bash
         python3 app.py 
-
+   ```
 
 # Frontend Setup:
 1. Navigate to the frontend folder:
@@ -55,9 +56,9 @@ This is a web application for configuring form parameters dynamically based on a
         npm install
     
 3. Start the React development server:
-    ```bash
+   ```bash
         npm run dev
-
+   ```
 
 
 
